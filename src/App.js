@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div style={{ textAlign: 'center', color: 'grey' }}>
-        <h3><u>Tree</u></h3>
+        <h3>Tree</h3>
         <Tree />
         <br/><br/>
         <a href='https://github.com/RamvigneshPasupathy/react-tree' style={{ cursor: 'pointer', color: 'blue' }}>View Code on GitHub</a>
