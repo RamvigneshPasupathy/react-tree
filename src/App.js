@@ -9,10 +9,11 @@ class App extends Component {
         <Tree root="root">
           <Tree.Node />
           <Tree.Node />
-          <Tree.Node>
-            <Tree.Node label="leaf" />
-            <Tree.Node label="leaf" />
-            <Tree.Node label="leaf" />
+          <Tree.Node label="greek">
+            <Tree root="root"></Tree>
+            <Tree.Node label="alpha" />
+            <Tree.Node label="beta" />
+            <Tree.Node label="gamma" />
           </Tree.Node>
           <Tree.Node />
         </Tree>
